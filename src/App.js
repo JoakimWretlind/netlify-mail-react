@@ -8,6 +8,7 @@ function App() {
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
+        <div data-netlify-recaptcha="true">I am friendly</div>
       </form>
     </div>
   );
