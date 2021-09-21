@@ -1,11 +1,12 @@
-import './App.css';
+import { GlobalStyle } from './globalStyle';
 import { Contact } from './components/index';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <GlobalStyle />
       <Contact />
-    </div>
+    </>
   );
 }
 
